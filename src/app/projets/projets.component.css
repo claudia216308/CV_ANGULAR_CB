@@ -1,0 +1,42 @@
+.mycard{
+    flex-basis: 35em;
+    margin-bottom: 1.2em;
+}
+
+.back{
+    overflow: hidden;
+    background-color: whitesmoke;
+    background-size: 100% 100%; 
+  }
+
+.cards{
+    margin: 5%;
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.simplerow{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.divide{
+    width: 90% !important ;
+    left: 5% !important;
+}
+
+.maincardtitle{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+}
+.cardtitle{
+    font-size: 1.8em;
+    font-family: 'Roboto Slab', serif;
+}
+.rowcard{
+     flex-basis: 80em;
+    margin-bottom: 1.2em;
+}

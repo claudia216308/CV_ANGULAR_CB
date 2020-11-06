@@ -1,0 +1,60 @@
+/****************************************************************
+ *
+ * CSS Percentage Circle
+ * Author: Andre Firchow
+ * source : http://circle.firchow.net/
+*****************************************************************/
+
+
+@media screen and (max-width:1000px) { 
+  mat-card-title{
+    font-size: 1.9em;
+  }
+ }
+
+ mat-card-title{
+  font-size: 1.7em;
+  font-weight: 700;
+}
+.dark-area {
+  background-color: #666;
+  padding: 40px;
+  margin: 0 -40px 20px -40px;
+  clear: both;
+}
+
+.clearfix:before,.clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+.clearfix {
+  *zoom: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width:1000px) { 
+  .competenceTitle{
+    font-size: 2.9em;
+  }
+ }
+
+ .competenceCards{
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.mycard{
+  flex-basis: 60em;
+  margin-bottom: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back{
+  overflow: hidden;
+  background-color: whitesmoke;
+  background-size: 100% 100%; 
+}

@@ -1,0 +1,8 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Acme|Roboto|IBM+Plex+Mono:400,500,700');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+body{
+    margin: 0px;
+}

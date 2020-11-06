@@ -1,0 +1,19 @@
+    <div id="main">
+          <nav class="navbar navbar-expand-sm navbar-light mynav fixed-top">
+              <!--a class="navbar-brand" href="#">Brand/Logo</a-->
+              <button class="navbar-toggler" id="hamburger" (click)="collapse=!collapse" type="button" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+              </button>
+            
+              <div class="navbar-collapse" (click)="collapse=true" [hidden]="collapse">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item"  *ngFor="let route of routeLinks">
+                    <a class="mynavlink nav-link" [routerLink]="route.link" routerLinkActive >{{route.label}} <span class="sr-only">(current)</span></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          
+          <router-outlet></router-outlet>
+</div>
+

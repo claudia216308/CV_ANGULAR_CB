@@ -1,0 +1,85 @@
+h1 {
+    margin: 12.7px 1%;
+    text-align: center;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    background-color: white;
+}
+
+mat-card-content{
+    font-size: 1.2em;
+    margin: 15px;
+    text-align: center;
+}
+
+.arrowicon{
+    font-size: 2.2em;
+    margin-top:10px;
+    color: white;
+    font-weight: 500;
+}
+.scrollbutton{
+    margin-right:auto;
+    margin-left:auto;
+    border-radius: 50%;    
+    margin-top: 89.5px; 
+    width: 50px;
+    height: 50px;
+    background-color: rgb(11, 113, 239);
+    text-align:center;
+}
+.avatar{
+    margin-top: 102px;
+}
+
+.title{
+    margin-top: 2%; 
+}
+
+.mycard{
+    flex-basis: 20em;
+    margin-bottom: 1.2em;
+}
+
+.cards{
+    margin: 5%;
+    margin-top: 76.8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagecard{
+    width: 110px;
+    margin-top: 1px;
+}
+
+.back{
+    overflow: hidden;
+    background-image: url('../../assets/img/fond.png');
+    background-repeat: no-repeat;
+    background-size: 100% 540px; 
+}
+
+.buttonToggle{
+    color:rgb(99, 98, 98);
+    font-size: 14px; 
+    font-weight: 500;    
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.icone{
+   font-size: 75px;
+   color: #2C3E4F; 
+   display:block;
+   text-align:center;
+   margin-top:10px;
+   margin-bottom: 28px;
+}

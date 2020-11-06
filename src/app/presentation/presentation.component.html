@@ -1,0 +1,46 @@
+
+<!--partie presentation --> 
+<div class="back">
+        <div class="avatar">
+                <img class="img-responsive" src="assets/img/avatar.png">
+            </div>
+                
+            <div class="title">
+                <h1 style="font-size: 2.5em;"> CLAUDIA BROUCHE</h1>
+                <h1> Développeuse </h1>
+            </div>
+            
+            <a (click)=scroll() > <div class="scrollbutton"><i class="fa fa-angle-double-down arrowicon" aria-hidden="true"></i></div></a> 
+
+            <!-- partie cards -->
+            
+            <div class="cards" id="scrollcards">
+                <mat-card class="mycard">
+                        <i class="fa fa-user-circle-o icone" aria-hidden="true" ></i>
+                        <mat-card-content>Pour connaitre mon parcours c'est pas ici </mat-card-content>
+
+                        <mat-card-actions style="text-align: center">
+                            <button mat-button class="buttonToggle" (click)="redirect()">Mon parcours </button>
+                        </mat-card-actions>
+                </mat-card>
+            
+                <mat-card class="mycard" > 
+                    <img class="imagecard" mat-card-image src="assets/img/job.png" alt="serch job" style="margin-top: 0px;">
+                    <mat-card-content style="text-align: center;">Je cherche un job</mat-card-content>
+            
+                    <mat-card-actions style="text-align: center; margin-top: 30px;">
+                            <button mat-button class="buttonToggle">Maintenant</button>
+                            <button mat-button style="color:darkgray">Pas tout de suite</button>
+                    </mat-card-actions>
+            
+                </mat-card>
+            
+                <mat-card class="mycard">
+                    <img class="imagecard" mat-card-image src="assets/img/angular-icon.png" alt="application angular" style="margin-top: 0px;">
+                    <mat-card-content>
+                        <p>Ce site est une application Angular ! </p>
+                        <p>Ouvrez cette page sur votre mobile et téléchargez là    ;) </p>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+</div>

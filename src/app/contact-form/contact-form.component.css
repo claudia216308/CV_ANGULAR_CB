@@ -1,0 +1,10 @@
+.contact{
+  display: block;
+  margin: auto;
+}
+
+.back{
+  overflow: hidden;
+  background-color: whitesmoke;
+  background-size: 100% 100%; 
+}
