@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { CompetenceComponent } from './competence/competence.component';
-import { ContactFormComponent } from './contact-form/contact-form.component'
-import { PresentationComponent } from './presentation/presentation.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { ProjetsComponent } from './projets/projets.component';
+import { CompetenceComponent } from './components/competence/competence.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component'
+import { PresentationComponent } from './components/presentation/presentation.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { ProjetsComponent } from './components/projets/projets.component';
 
 
 const routes: Routes = [

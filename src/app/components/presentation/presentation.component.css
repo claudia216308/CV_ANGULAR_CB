@@ -63,7 +63,7 @@ mat-card-content{
 
 .back{
     overflow: hidden;
-    background-image: url('../../assets/img/fond.png');
+    background-image: url('../../../assets/img/fond.png');
     background-repeat: no-repeat;
     background-size: 100% 540px; 
 }
