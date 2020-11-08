@@ -1,4 +1,5 @@
 h1 {
+    font-size: 2.5em;
     margin: 12.7px 1%;
     text-align: center;
     color: white;
@@ -6,8 +7,7 @@ h1 {
 }
 
 img{
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: block;
     border-radius: 50%;
     background-color: white;
@@ -26,10 +26,9 @@ mat-card-content{
     font-weight: 500;
 }
 .scrollbutton{
-    margin-right:auto;
-    margin-left:auto;
-    border-radius: 50%;    
+    margin:auto;
     margin-top: 89.5px; 
+    border-radius: 50%;    
     width: 50px;
     height: 50px;
     background-color: rgb(11, 113, 239);
@@ -59,6 +58,7 @@ mat-card-content{
 .imagecard{
     width: 110px;
     margin-top: 1px;
+    margin-top: 0px;
 }
 
 .back{

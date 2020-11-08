@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
 })
 export class PresentationComponent implements OnInit {
 
+  @ViewChild('scrollcards') scrollcards: ElementRef;
+  
   constructor(private router: Router) { }
 
   ngOnInit() {
@@ -18,7 +20,7 @@ export class PresentationComponent implements OnInit {
   }
 
   scroll (){
-    document.getElementById('scrollcards').scrollIntoView({ behavior: 'smooth' } );
+    this.scrollcards.nativeElement.scrollIntoView({ behavior: 'smooth' } );
   }
 
 }

@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Node } from '@angular/compiler/src/i18n/i18n_ast';
-
-declare var init: any;
 
 @Component({
   selector: 'app-experience',
