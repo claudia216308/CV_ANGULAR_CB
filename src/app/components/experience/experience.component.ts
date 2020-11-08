@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LIST_EXPERIENCE } from 'src/app/data/mockExperience';
 
 @Component({
   selector: 'app-experience',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class ExperienceComponent implements OnInit {
 
 
+  entries = LIST_EXPERIENCE
   constructor() { }
 
   scrolling: boolean;

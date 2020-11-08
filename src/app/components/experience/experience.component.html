@@ -1,22 +1,18 @@
-<mgl-timeline style="margin: 5%;">
-	<mgl-timeline-entry style="cursor: pointer;">
-		<mgl-timeline-entry-header>
-			Développement Java/J2EE chez ACA</mgl-timeline-entry-header>
+<mgl-timeline [toggle]="false" style="margin: 5%;">
+	<mgl-timeline-entry *ngFor="let entry of entries;" style="cursor: pointer;">
+		<mgl-timeline-entry-header> {{entry.title}} </mgl-timeline-entry-header>
 		<mgl-timeline-entry-content>
-			<p>Arthaud Courthéoux et Associés, Paris </p>
-			<p> Après un an de contrat de professionalisation, je suis aujourd'hui en CDI.</p>
-			<p>Participation au développement d’un interpréteur comptable
-				Utilisation des méthodes agiles
-				Rédaction des tests (Junit, PowerMock)
-			</p>
+			<p>{{entry.society }}</p>
+			<p> {{entry.time}} </p>
+			<p> {{entry.descriptionPoste}}</p>
 			<p>
 				Les technologies utilisées :
-				Java, Spring, Angular, Hibernate, MongoDB, PostgreSQL, Oracle...
+				{{entry.listeTechnos}}
 			</p>
 		</mgl-timeline-entry-content>
 
 		<mgl-timeline-entry-dot size="50" style="background-color: rgb(151, 185, 226)">
-			</mgl-timeline-entry-dot>
-			<mgl-timeline-entry-side>Nov. 2017 - Aujourd'hui</mgl-timeline-entry-side>
+		</mgl-timeline-entry-dot>
+		<mgl-timeline-entry-side>{{entry.dateBegin}} - {{entry.dateEnd}}</mgl-timeline-entry-side>
 	</mgl-timeline-entry>
 </mgl-timeline>

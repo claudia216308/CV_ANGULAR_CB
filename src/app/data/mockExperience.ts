@@ -1,6 +1,6 @@
 import { Experience } from "../modele/experience";
 
-export const listExperience: Experience[] = [
+export const LIST_EXPERIENCE: Experience[] = [
     {
         title: 'Développement Scala',
         society: 'IDEMIA (Mission pour AlterSolutions)',
