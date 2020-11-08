@@ -1,5 +1,5 @@
 import { Component, OnInit, Input  } from '@angular/core';
-import { Competence} from '../competence';
+import { Competence} from '../../modele/competence';
 
 @Component({
   selector: 'app-competence-element',
@@ -18,10 +18,10 @@ export class CompetenceElementComponent implements OnInit {
     this.cssClass  = "c100 p"+ this.competence.percentage +  " " + this.graphColor;
   
     //cercles responsive
-    $(window).on('load resize', function () {
+    /*$(window).on('load resize', function () {
       if($(window).width() <=1000) $('.circle').addClass("big");
       else $('.circle').removeClass("big");
-  });
+  });*/
   }
   
 

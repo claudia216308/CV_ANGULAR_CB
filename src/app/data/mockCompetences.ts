@@ -1,4 +1,4 @@
-import { Competence } from "./competence";
+import { Competence } from "../modele/competence";
 
 
 export const FRONT: Competence[] = [

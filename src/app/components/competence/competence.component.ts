@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Competence } from '../competence';
-import { FRONT, BACK, FRAME } from '../mockCompetences';
+import { FRONT, BACK, FRAME } from 'src/app/data/mockCompetences';
+import { Competence } from '../../modele/competence';
 
 @Component({
   selector: 'app-competence',

@@ -19,8 +19,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
-import * as $ from 'jquery';
-
+import { MglTimelineModule } from 'angular-mgl-timeline';
 
 @NgModule({
   declarations: [
@@ -45,7 +44,8 @@ import * as $ from 'jquery';
     FormsModule,
     MatCardModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    MglTimelineModule
   ],
   providers: [],
   bootstrap: [AppComponent]
