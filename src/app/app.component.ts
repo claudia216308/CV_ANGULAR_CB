@@ -1,6 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { Router } from '@angular/router';
-import { MatTabNav } from '@angular/material/tabs';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +7,11 @@ import { MatTabNav } from '@angular/material/tabs';
 })
 export class AppComponent implements OnInit{
   
+  collapse = true;
+  
   routeLinks: any[];
 
-  constructor(private router: Router) {
+  constructor() {
     this.routeLinks = [
         {
             label: 'Présentation',
