@@ -1,0 +1,19 @@
+
+mat-card-title {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.competenceCards {
+    margin: 2% 9%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.back {
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    background-size: 100% 100%;
+}

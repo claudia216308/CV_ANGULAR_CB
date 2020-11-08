@@ -1,0 +1,8 @@
+<div fxLayout="column" flex  class="wrapper">
+    <h3 flex>{{title}}</h3>
+    <div fxLayout="row" fxLayout.xs="column" class="progress-wrapper">
+        <div *ngFor="let element of elements">
+            <app-competence-element [competence]="element" [color]="color"></app-competence-element>
+        </div>
+    </div>
+</div>

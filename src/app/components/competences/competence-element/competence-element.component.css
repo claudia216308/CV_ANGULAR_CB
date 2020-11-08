@@ -1,0 +1,21 @@
+.progress-circle {
+  position: relative;
+  margin: 10px;
+}
+
+.progress-circle .text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+round-progress {
+  margin: auto;
+}

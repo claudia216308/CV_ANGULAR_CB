@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { FRONT, BACK, FRAME } from 'src/app/data/mockCompetences';
-import { Competence } from '../../modele/competence';
+import { Competence } from '../../../modele/competence';
 
 @Component({
   selector: 'app-competence',
-  templateUrl: './competence.component.html',
-  styleUrls: ['./competence.component.css']
+  templateUrl: './competence-page.component.html',
+  styleUrls: ['./competence-page.component.css']
 })
-export class CompetenceComponent implements OnInit {
+export class CompetencePageComponent implements OnInit {
 
   //données
   fronts: Competence[] = FRONT;
